@@ -1,0 +1,22 @@
+{
+  "name": "node-ecommerce-sample",
+  "version": "1.0.0",
+  "description": "Simple Node.js + Express sample app serving a small e-commerce catalog and static frontend.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "node -e \"console.log('ok')\""
+  },
+  "keywords": ["node", "express", "sample", "ecommerce"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
+
